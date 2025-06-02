@@ -1,0 +1,35 @@
+{
+    "name": "rtmp-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "build": "tsc",
+        "lint:format": "biome format --error-on-warnings .",
+        "lint:lint": "biome lint --error-on-warnings .",
+        "lint:check": "biome check --error-on-warnings .",
+        "fix:format": "biome format --write .",
+        "fix:lint": "biome lint --write .",
+        "fix:check": "biome check --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hiro527/rtmp-server.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Hiro527/rtmp-server/issues"
+    },
+    "homepage": "https://github.com/Hiro527/rtmp-server#readme",
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "@types/node-media-server": "^2.3.7",
+        "lefthook": "^1.11.13"
+    },
+    "dependencies": {
+        "node-media-server": "^4.0.18",
+        "typescript": "^5.8.3"
+    }
+}
