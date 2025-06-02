@@ -1,4 +1,4 @@
-import NodeMediaServer from 'node-media-server';
+import NodeMediaServer from 'node-media-server'
 
 const config = {
     rtmp: {
@@ -13,7 +13,7 @@ const config = {
         allow_origin: '*',
         mediaroot: './media',
     },
-};
+}
 
-const nms = new NodeMediaServer(config);
-nms.run();
+const nms = new NodeMediaServer(config)
+nms.run()
